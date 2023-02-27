@@ -11,17 +11,17 @@
 }
 
 .info-container{
-    box-sizing:border-box;
+   box-sizing:border-box;
     position:absolute;
     width:400px;
     height:550px;
     right: 100px;
     top: 60px;
 
-    background-color: #CEEAFA;
+    background-color:#ceeafaca;
     border: 2px solid black;
     box-shadow:#eebb99;
-    border-radius: 40px;
+    border-radius: 40px; 
 }
 
 h1{
@@ -31,7 +31,8 @@ h1{
     font-size:40 px;
     line-height: 20px;
     color:#000080;
-    margin-top:  -20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
 
     display: flex;
     align-items: center;
@@ -48,17 +49,18 @@ label{
 }
 
 button{
-    display:flex;
+
     margin: 10px;
-    width: 90px;
+    width: 100px;
     border-radius: 10px;
-    margin-left: 190px;
+    margin-left: 30px;
     justify-content:center;
-    height: 30px;
+    height: 40px;
     color:  whitesmoke;
     background-color:#000080;
     box-shadow: #eebb99;
-    margin-top:-20px;
+    margin-top:30px;
+    text-decoration: none;
 
     font-size: medium;
     font: weight 500px;
@@ -68,16 +70,39 @@ button{
 }
 
 input{
-    margin: 0px 10px 0px 5px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 10px;
     padding-top: 10px;
-    height: 50px;
+    padding-bottom: 10px;
 
     border-radius: 20px;
-    border-color:#000080;
+    border-color:hsl(206, 100%, 50%);
     border-radius: 8px;
     background-color:whitesmoke;
 
 }
+
+
+html, body {
+    margin:0;
+    height:100%;
+  }
+
+.bg-image1{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/firewatch-mountains-clear-sky-blue-sky-watchtower-2560x1080-6982.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }  
+
+   .signup{
+    text-decoration: none;
+   }
+
+   a,u {
+    text-decoration: none;
+  }
 
 
 
