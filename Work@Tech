@@ -1,1 +1,15 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Myfirstcode
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int i = 28;
+		if(i==28){
+			System.out.println("My first code on workat.tech");
+		}
+	}
+}
 
